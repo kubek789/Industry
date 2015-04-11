@@ -1,6 +1,9 @@
+library("stringi")
+
 # WCZYTYWANIE DANYCH:
 
 dane <- read.csv2("dane\\dane.csv", header=TRUE)
+opisy <- data.frame(t(read.csv2("dane\\opisy.csv", header=TRUE)))
 
 # head(dane)
 # dim(dane) # [1] 1515   42
@@ -57,5 +60,4 @@ dane$"WE18" <- as.numeric(dane$"WE18")
 dane <- dane[,-which(names(dane)=="WE17")]
 
 # dim(dane) # [1] 1446   39
-
 

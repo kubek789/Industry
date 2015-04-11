@@ -15,3 +15,23 @@
 # wytrzymalosc a twardosc -> duza korelacja!
 # wyzsza wytrzymalosc przy nizszej temp hartowania
 # pierwiastki
+
+# temperatury moze nie byc, bo sie przepalil czujnik, czyli byla bardzo duza!
+
+# logarytmem przekształcić zawartości pierwiastków!
+
+# temperatura i czas austenityzacji, teperatura i czas hartowania izotermicznego - zdyskretyzować!
+
+# temp przemiany izotermicznej: 250-450 -> tak zdyskretyzowac (co 50 stopni)
+
+# wegiel krzem mangan magnez -> wazne pierwiastki
+
+# WAZNE!!!!!!!!!!!!!!!!!! Modelujemy zmienne WY_1, WY_3 i WY_4!!!!!!!!!!!!!!!!!
+
+# magnez mangan wegiel krzem -> nie moze byc tam zer
+# siarka i fosfor razem -> nie moze byc tam zer (lacznie)
+
+
+
+
+
